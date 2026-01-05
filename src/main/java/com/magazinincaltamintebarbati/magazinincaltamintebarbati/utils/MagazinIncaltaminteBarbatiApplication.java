@@ -1,4 +1,4 @@
-package com.magazinincaltamintebarbati.magazinincaltamintebarbati;
+package com.magazinincaltamintebarbati.magazinincaltamintebarbati.utils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MagazinIncaltaminteBarbatiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MagazinIncaltaminteBarbatiApplication.class, args);
+		SpringApplication.run
+                (MagazinIncaltaminteBarbatiApplication.class, args);
 	}
 
 }
