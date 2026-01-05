@@ -6,10 +6,10 @@ import org.springframework.data.annotation.Id;
 @Entity
 @Table(name = "produse")
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class Produs {
+public class Produs {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @jakarta.persistence.Id
     private Long id;
     private String nume;
