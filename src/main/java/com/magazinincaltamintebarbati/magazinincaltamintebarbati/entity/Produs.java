@@ -1,15 +1,16 @@
 package com.magazinincaltamintebarbati.magazinincaltamintebarbati.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Table;
 import org.springframework.data.annotation.Id;
 
 @Entity
 @Table(name = "produse")
-@Inheritance(strategy = InheritanceType.JOINED)
 public class Produs {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @jakarta.persistence.Id
     private Long id;
     private String nume;
