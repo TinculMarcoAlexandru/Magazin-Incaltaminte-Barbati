@@ -8,7 +8,7 @@ import org.springframework.data.annotation.Id;
 
 @Entity
 @Table(name = "produse")
-public class Produs {
+public  abstract class Produs {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @jakarta.persistence.Id

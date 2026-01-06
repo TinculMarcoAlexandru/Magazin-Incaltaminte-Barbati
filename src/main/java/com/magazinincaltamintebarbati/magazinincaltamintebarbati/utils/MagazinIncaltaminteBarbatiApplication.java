@@ -10,5 +10,4 @@ public class MagazinIncaltaminteBarbatiApplication {
 		SpringApplication.run
                 (MagazinIncaltaminteBarbatiApplication.class, args);
 	}
-
 }
