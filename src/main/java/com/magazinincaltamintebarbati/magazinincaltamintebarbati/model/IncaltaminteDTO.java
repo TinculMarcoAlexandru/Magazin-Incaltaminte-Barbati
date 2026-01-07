@@ -5,7 +5,6 @@ public class IncaltaminteDTO {
     private double pret;
     private int marime;
     private String tip;
-
     public String getNume() { return nume; }
     public void setNume(String Adidasi) { this.nume = nume; }
     public double getPret() { return pret; }
