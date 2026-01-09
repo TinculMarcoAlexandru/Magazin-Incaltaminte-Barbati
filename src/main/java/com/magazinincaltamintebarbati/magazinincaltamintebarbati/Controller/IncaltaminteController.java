@@ -19,12 +19,12 @@ public class IncaltaminteController {
         this.service = service;
     }
     @Operation(summary = "Adauga incaltaminte")
-    @PostMapping("/{id}")
+    @PostMapping()
     public IncaltaminteBarbati create(@RequestBody IncaltaminteDTO dto) {
         return service.adauga(dto);
     }
     @Operation(summary = "Afiseaza toate produsele")
-    @GetMapping("/{id}")
+    @GetMapping()
     public List<IncaltaminteBarbati> getAll() {
         return service.getAll();
     }
