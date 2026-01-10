@@ -4,7 +4,6 @@ import com.magazinincaltamintebarbati.magazinincaltamintebarbati.Service.Incalta
 import com.magazinincaltamintebarbati.magazinincaltamintebarbati.entity.IncaltaminteBarbati;
 import com.magazinincaltamintebarbati.magazinincaltamintebarbati.model.IncaltaminteDTO;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

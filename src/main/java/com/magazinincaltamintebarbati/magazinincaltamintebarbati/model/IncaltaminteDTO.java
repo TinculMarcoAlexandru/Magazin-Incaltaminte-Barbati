@@ -1,12 +1,14 @@
 package com.magazinincaltamintebarbati.magazinincaltamintebarbati.model;
 
 public class IncaltaminteDTO {
+    public IncaltaminteDTO() {
+    }
     private String nume;
     private double pret;
     private int marime;
     private String tip;
     public String getNume() { return nume; }
-    public void setNume(String Adidasi) { this.nume = nume; }
+    public void setNume(String nume) { this.nume = nume; }
     public double getPret() { return pret; }
     public void setPret(double pret) { this.pret = pret; }
     public int getMarime() { return marime; }
